@@ -5,7 +5,7 @@
     <ProjectGuid>8b0cbfa0-369e-40ae-94ca-248d2c1d797f</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Speed Thick.py</StartupFile>
+    <StartupFile>Speed Thick Adapt.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Example.py" />
+    <Compile Include="Speed Thick Adapt.py" />
     <Compile Include="Speed Thick.py" />
     <Compile Include="Grading.py">
       <SubType>Code</SubType>

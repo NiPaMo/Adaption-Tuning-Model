@@ -19,15 +19,15 @@ print(Y)
 
 # create model
 model = Sequential()
-model.add(Dense(100, input_dim=1, activation='relu'))
-model.add(Dense(50, activation='relu'))
+model.add(Dense(5, input_dim=1, activation='relu'))
+model.add(Dense(2, activation='relu'))
 model.add(Dense(1, activation='relu'))
 
 # Compile model
 model.compile(loss='mean_squared_error', optimizer='sgd')
 
 # Fit the model
-model.fit(X, Y, epochs=5, batch_size=100, verbose=1)
+model.fit(X, Y, epochs=20, batch_size=500, verbose=1)
 
 # evaluate the model
 scores = model.evaluate(X, Y)
